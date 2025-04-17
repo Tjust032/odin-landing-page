@@ -1,0 +1,237 @@
+/*.top-content {
+    background-color: #1F2937;
+    text-align: center;
+    margin: 0;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.top {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    margin: 0 5rem;
+}
+
+ul {
+    list-style-type: none;
+    gap: 2rem;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.head-logo {
+    font-size: 1.5rem;
+}
+
+.top-content {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    margin: 5rem 5rem;
+}
+
+.top-content-text, .top-content-image {
+    max-width: 600px;
+    flex-wrap: wrap;
+}
+
+.top-content-image {
+    flex-shrink: 0;
+    flex-grow: 1;
+    width: 350px;
+    height: auto;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.top-content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.titles {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.text {
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+.signup-button {
+    background-color: #3B82F6;
+    width: 50%;
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0rem;
+}
+
+.info-card-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 5rem;
+    flex-wrap: wrap;
+}
+
+.info-title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.info-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 2rem;
+    overflow: hidden;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    margin: 5rem;
+    flex-grow: 1;
+}
+
+.quote {
+    font-style: italic;
+    color: #1F2937;
+    font-size: 3rem;
+    margin: 0;
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.quote-author {
+    margin: 1rem 0rem;
+    align-self: flex-end;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.call-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0rem;
+    color: white;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 2rem;
+}
+
+.call-title, .call-text {
+    margin: 0;
+}
+
+.call-text {
+    font-weight: 100;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+}
+
+.call-stuff {
+    margin: 0 2rem;
+    align-self: center;
+}
+
+.call-button {
+    justify-self: flex-end;
+    align-self: center;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    margin: 0 5rem;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    height: 100px;
+    align-items: center;
+}
