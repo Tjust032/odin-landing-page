@@ -144,11 +144,12 @@ ul {
 
 .quote-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 500px;
     padding: 1rem;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     margin: 5rem 0rem;
     background-color: #E5E7EB;
 }
@@ -160,7 +161,7 @@ ul {
     justify-content: center;
     max-width: fit-content;
     margin: 5rem;
-    flex-grow: 1;
+    flex-grow: 0;
 }
 
 .quote {
@@ -169,6 +170,7 @@ ul {
     font-size: 3rem;
     margin: 0;
     padding: 2rem 0rem 0rem 0rem;
+    flex-grow: 0;
 }
 
 .quote-author {
