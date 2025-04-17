@@ -4,6 +4,6 @@ A simple, clean landing page built as part of [The Odin Project](https://www.the
 
 ## ✨ Live Preview
 
-[Check it out here!](https://github.com/Tjust032/odin-landing-page.git)  
+[Check it out here!](https://tjust032.github.io/odin-landing-page/)  
 
 ---
