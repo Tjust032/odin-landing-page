@@ -5,6 +5,5 @@ A simple, clean landing page built as part of [The Odin Project](https://www.the
 ## ✨ Live Preview
 
 [Check it out here!](https://github.com/Tjust032/odin-landing-page.git)  
-*(Replace with your actual GitHub Pages link)*
 
 ---
