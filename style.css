@@ -126,7 +126,8 @@ ul {
 
 .info-card {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
+    max-width: 300px;
     align-items: center;
     flex: 1;
 }
